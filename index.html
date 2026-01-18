@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    
+    <style>
+        /* 1. Reset and Basic Typography */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* 2. Header and Navigation */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9800; /* Orange color on hover */
+        }
+
+        /* 3. Main Content Area */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        /* 4. Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <section>
+            <h2>Hello, World!</h2>
+            <p>This is a paragraph of text. You can write whatever you want here. HTML allows you to structure content easily.</p>
+            <p>Here is a list of things I like:</p>
+            <ul>
+                <li>Coding</li>
+                <li>Coffee</li>
+                <li>Design</li>
+            </ul>
+        </section>
+
+        <hr> <section id="about">
+            <h2>About This Site</h2>
+            <p>This website was built using <strong>HTML5</strong> and <strong>CSS3</strong>. It is fully responsive, meaning it looks good on mobile phones too.</p>
+            <img src="https://via.placeholder.com/600x200" alt="Placeholder Image" style="width:100%; border-radius: 5px;">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
